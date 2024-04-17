@@ -127,7 +127,7 @@ public class CoffeeMakerTest {
 		coffeeMaker.addRecipe(recipe1);
 			/** 
 			* Reciept 1 price is equal 50 --> Pay 75 return 25
-			* 75-25 = 50 
+			* 75-50 = 25
 			* Check the amount of money return correctly assertEqual 25
 			*/ 
 		assertEquals(25, coffeeMaker.makeCoffee(0, 75));
