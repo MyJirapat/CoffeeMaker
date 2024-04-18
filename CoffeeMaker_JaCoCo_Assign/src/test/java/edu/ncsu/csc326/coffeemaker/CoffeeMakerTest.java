@@ -28,9 +28,7 @@ import edu.ncsu.csc326.coffeemaker.exceptions.RecipeException;
  */
 public class CoffeeMakerTest {
 
-	/**
-	 * The object under test.
-	 */
+	
 	private CoffeeMaker coffeeMaker;
 
 	// Sample recipes to use in testing.
